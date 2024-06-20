@@ -25,3 +25,10 @@
 
 // ----------------------------------------------------------------------
 
+// Index of
+
+let userName = "Santhosh"
+
+console.log(userName.indexOf('p'))
+
+console.log(userName[6])

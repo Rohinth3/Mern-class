@@ -5,9 +5,9 @@
 
  let name = "santhosh"
 
- if (name.includes('t'),name.includes('o')){
+ if ((name.includes('t')) && (name.indexOf('o')>=0)  ){
     console.log("The name has t and o character")
- } else{
+ } else {
     console.log("Not a character")
  }
 
