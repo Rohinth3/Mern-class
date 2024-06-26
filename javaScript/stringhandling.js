@@ -27,8 +27,19 @@
 
 // Index of
 
-let userName = "Santhosh"
+// let userName = "Santhosh"
 
-console.log(userName.indexOf('p'))
+// console.log(userName.indexOf('p'))
 
-console.log(userName[6])
+// console.log(userName.indexOf('S'))
+
+// console.log(userName.indexOf('s'))
+
+//case sensitive also used in this concept
+
+// --------------------------------------------------------------------------
+
+//includes
+
+// let name = "rohinth"
+// console.log(name.includes('k'))
