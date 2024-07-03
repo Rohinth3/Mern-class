@@ -151,9 +151,7 @@
 
 // for(i of name){
 //     let count = 0
-//     // console.log(i)
 //     for(j of name){  
-//         // console.log(j)
 //         if(i==j){
 //             count++
 //         }
@@ -219,24 +217,84 @@
 // Input: "hello world"
 // Output: "hlowrd"
 
-let name = "hello world"
-let output = ""
+// let name = "hello world"
+// let output = ""
 
-for (i=0; i<=name.length; i = i+2){
-    output = output + name[i]
-}
-console.log(output)
+// for (i=0; i<=name.length; i = i+2){
+//     output = output + name[i]
+// }
+// console.log(output)
 
 // -----------------------------------------------------------------------------------------
 
-// Task 4:
+// // Task 4:
 
-// 	•	Input: "I have 2 apples and 3 bananas"
-// 	•	Output: "I have two apples and three bananas"
+// // 	•	Input: "I have 2 apples and 3 bananas"
+// // 	•	Output: "I have two apples and three bananas"
 
-// 	•	Input: "I have 23 apples"
-// 	•	Output: "I have two three apples"
+// // 	•	Input: "I have 23 apples"
+// // 	•	Output: "I have two three apples"
 
+
+// let name = "I have 2 apples and 3 bananas"
+// let n;
+
+// switch (name){
+//    case "I have 1 apples and 2 bananas":
+//       n = "I have one apples and two bananas";
+//    break;
+//    case "I have 2 apples and 3 bananas":
+//       n = "I have two apples and three bananas";
+//    break;
+//    case "I have 1 apples and 1 bananas":
+//       n = "I have one apples and one bananas";
+//    break;
+
+// }
+// console.log(n)\
+
+// -------------------------------------------------
+
+// let input = "I have 23 apples"
+// let output;
+
+// switch (input){
+//    case "I have 23 apples":
+//       output = "I have two three apples";
+//    break;
+//    case "I have 33 apples":
+//       output = "I have three three apples";
+//    break;
+//    case "I have 43 apples":
+//       output = "I have four three apples";
+//    break;
+//    case "I have 53 apples":
+//       output = "I have five three apples";
+//    break;
+//    case "I have 63 apples":
+//       output = "I have six three apples";
+//    break;
+// }
+// console.log(output)
+
+
+
+// -------------------------------------------------------------------------------------
+
+// Task 5:
+
+// 	•	Input: "hello"
+// 	•	Output: "hheelllloo"
+
+let word = "hello"
+let result = "";
+
+for(i=0; i<word.length;i++){
+   result = result + word[i] + word[i]
+}
+console.log(result)
+
+// -------------------------------------------------------------------------------
 
 
 

@@ -54,55 +54,55 @@
 
 // -------------------------------------------------------------------------------------------------------------------------------
 
-// Identify the quotes for which day using
+// Identify the quotes for which day going
 
-// var day =1;
-// console.log("The Day is :",day)
+var day =2;
+console.log("The Day is :",day)
 
-// let dayName;
+let dayName;
 
-// switch(day){
-//     case dayName = 1:
-//         console.log("Good day")
-//                    let name = "Good day"
-//                      if ( (name.includes('G')) && (name.indexOf('y')>=0)){
-//                      console.log("G and Y was here")
-//                      }else{
-//                      console.log("Not applicable")
-//                      }
-//         break
-//     case dayName = 2:
-//         console.log("Worst day")
-//         break
-//     case dayName = 3:
-//         console.log("Ignorance day")
-//         break
-//     default:
-//         console.log("Please enter the correct number")
-// }
+switch(day){
+    case dayName = 1:
+        console.log("Good day")
+                   let name = "Good day"
+                     if ( (name.includes('G')) && (name.indexOf('y')>=0)){
+                     console.log("G and Y was here")
+                     }else{
+                     console.log("Not applicable")
+                     }
+        break
+    case dayName = 2:
+        console.log("Worst day")
+        break
+    case dayName = 3:
+        console.log("Ignorance day")
+        break
+    default:
+        console.log("Please enter the correct number")
+}
 
 // ---------------------------------------------------------------------------------------------------
 
 // Show the current month of the day using switch
 
-let month = new Date().getMonth();
-let monthName;
+// let month = new Date().getMonth();
+// let monthName;
 
-switch(month){
-    case 1:
-        monthName = 'January';
-        break;
-    case 2:
-        monthName = "February";
-        break;
-    case 3:
-        monthName = "june";
-        break;
-    case 4:
-        monthName = "july";
-        break;
-    default :
-        monthName =  "invalid month"
-}
-console.log(monthName);
+// switch(month){
+//     case 1:
+//         monthName = 'January';
+//         break;
+//     case 2:
+//         monthName = "February";
+//         break;
+//     case 3:
+//         monthName = "june";
+//         break;
+//     case 4:
+//         monthName = "july";
+//         break;
+//     default :
+//         monthName =  "invalid month"
+// }
+// console.log(monthName);
 
