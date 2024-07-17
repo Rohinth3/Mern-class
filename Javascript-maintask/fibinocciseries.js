@@ -1,40 +1,31 @@
 // first fibonacci series 5  -  0 1 1 2 3 5 8 
 
-let a = 0
+// let num1 = 0
+// let num2 = 1; 
+// let final
 
-let b = 1 , result 
+// console.log(num1)
+// console.log(num2)
 
-console.log(a)
-console.log(b)
-
-for(i=1
-    ; i<=5; i++){
-    result = a + b
-    console.log(result)
-    a = b
-    b = result
-}
-
-
-
+// for(let i=0; i<5; i++){
+//     final = num1 + num2
+//     num1 = num2 
+//     num2 = final
+//     console.log(final)
+// }
 
 //for loop, indexing, slicing, concatination
-
-
-
-
 
 // -----------------------------------------------------------------------------------------------------------
 
 // Factorial number 5 numbers 5!=5×4×3×2×1=120.  o/p:120
 
-// let fact = 5;
-// let n = 1;
-
-// for(i =1; i<=fact; i++){
-//     n  = n * i  
+// let fact = 5
+// let output = 1
+// for(i=1; i<=fact; i++){
+//     output = output * i
 // }
-// console.log(n)
+// console.log(output)
 
 // -----------------------------------------------------------------------------------------------------------------
 
@@ -59,19 +50,28 @@ for(i=1
 
 // let x = 10
 // let y = 20
-// let z;
+// let z = x
+
+// x = y
+// y = z
+
+// console.log ("before x =10 after x =",x)
+// console.log ("before y =20 after y =",y)
+
+//using arithmetic
+let x = 10
+let y = 20
+
+x = x + y;
+y = x - y;
+x = x - y;
+console.log ("before x =10 after x =",x)
+console.log ("before y =20 after y =",y)
 
 
-// if(z =  y){
-//     console.log("x :",z)
-// }else {
-//     console.log(y)
-// }
-// if(z != x){
-//     console.log("y :",x)
-// }else{
-//     console.log(x)
-// }
+
+
+
 
 
 

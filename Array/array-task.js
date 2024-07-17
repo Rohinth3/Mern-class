@@ -6,6 +6,7 @@ let output = []
 while (true){
     if(arr.length == 0){
         break;
+        
     }
     // console.log("this is testing") --> continue loop running not work in vse code.
     let maxNum = 0
