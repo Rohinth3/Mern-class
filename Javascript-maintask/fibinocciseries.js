@@ -1,18 +1,22 @@
 // first fibonacci series 5  -  0 1 1 2 3 5 8 
 
-// let num = 0
+let a = 0
 
-// let temp = 1 , result;
+let b = 1 , result 
 
-// console.log(num)
-// console.log(temp)
+console.log(a)
+console.log(b)
 
-// for(i=0; i<=5; i++){
-//     result = num + temp;
-//     console.log(result.slice(0,-1))
-//     num = temp;
-//     temp = result;
-// }
+for(i=1
+    ; i<=5; i++){
+    result = a + b
+    console.log(result)
+    a = b
+    b = result
+}
+
+
+
 
 //for loop, indexing, slicing, concatination
 
