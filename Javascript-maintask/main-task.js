@@ -3,24 +3,26 @@
 
 // let myName =  "Rohinth"
 
-//     for(i=0; i<myName.length; i++){
-//         let temp = myName[i]
-//         console.log(temp, i)
-//     }
+// for(i in myName){
+//    console.log(myName[i],i)
+// }
 
+// // for(i=0; i<myName.length; i++){
+// //    let temp = myName[i]
+// //    console.log(temp, i)
+// // }
 // ----------------------------------------------------------------------------------------------------
 
 // TASK Rohinth    output: R_o_h_i_n_t_h
 
 // let name = "Rohinth"
 // let temp = ""
-
 // for(let i of name){
 //     temp = temp + i + '_'
     
 // }
 // console.log(temp.slice(0,-1))
-
+// -------------------------------------------------------
 // let name = "Rohinth";
 // let output = ""
 
@@ -32,20 +34,29 @@
        
 // }
 // console.log(output)
+// -------------------------------------------------------
+
+// let name = "Rohinth"
+// let output = ""
+
+// for(i=0; i<name.length; i++){
+//   output = output + "_" + name[i]
+// }
+// console.log(output.slice(1))
 
 
 // ------------------------------------------------------------------------------------------------------------
 
 // Print the even index numbers letters only from the given string  eg:suresh   o/p: srs
 
-// let name = "softlogic"
-// let n = ""
+// let name = "softlogic suresh"
+// let output = ""
 
-// for (i=0; i<name.length; i=i+2){
-//     n = name[i]
-//     console.log(n)
+// for(i=0; i<name.length; i=i+2){
+//  output = output + name[i]
 // }
-
+// console.log(output)
+// -------------------------------------------------------
 // let x = "softlogic suresh"
 // let y = ''
 
@@ -57,7 +68,6 @@
     
 // }
 // console.log(y)
-
 
 // ------------------------------------------------------------------------------------------------------------------
 
@@ -79,7 +89,7 @@
 
 // let name = "my institute name is softlogic"
 
-// console.log(name.replaceAll(' ','_'))
+// // console.log(name.replaceAll(' ','_'))
 
 // name = name.replaceAll(' ','').slice(1,11)
 // console.log(name)
@@ -286,13 +296,13 @@
 // 	•	Input: "hello"
 // 	•	Output: "hheelllloo"
 
-let word = "hello"
-let result = "";
+// let word = "hello"
+// let result = "";
 
-for(i=0; i<word.length;i++){
-   result = result + word[i] + word[i]
-}
-console.log(result)
+// for(i=0; i<word.length;i++){
+//    result = result + word[i] + word[i]
+// }
+// console.log(result)
 
 // -------------------------------------------------------------------------------
 

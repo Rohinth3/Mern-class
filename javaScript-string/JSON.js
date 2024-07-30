@@ -51,7 +51,7 @@ let obj4 = JSON.parse(JSON.stringify(obj3))
  obj3.age = 32;
 
  console.log(typeof(obj4))
-console.log(obj3)
+console.log(obj4)
 
                                     // TO check the Datatype 12 using JSON.parse  12--> int '12' --> String
 // let obj3 = {
