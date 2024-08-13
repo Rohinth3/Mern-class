@@ -192,11 +192,11 @@
 // console.log(a)
 // console.log(fruits)
 
-                        //mixed letter and numbers
+//           //              mixed letter and numbers
                         
-// let fruits = ["apple",5,"grapes","3",3,4,1,2,'banana']
-// fruits.sort()
-// console.log(fruits)
+let fruits = ["apple",5,"grapes","3",3,4,1,2,'banana']
+fruits.sort()
+console.log(fruits)
 
 // -----------------------------------------------------------------------------------------
 

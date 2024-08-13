@@ -153,9 +153,9 @@ buttonDiv1.addEventListener('click',() => {
     
     console.log("output",output)
     // //6th
-    if(output.length > 0){
+        if(output.length > 0){
         mainDiv.innerHTML = ''
-        for(i of output){
+            for(i of output){
                 const userDiv = document.createElement('div')
                 userDiv.style.marginBottom = "20px"
                 userDiv.style.height = "300px"
@@ -170,12 +170,12 @@ buttonDiv1.addEventListener('click',() => {
                                         <p>Email: ${i.email}</p>
                                     `
                 mainDiv.append(userDiv)
+            }
         }
-    }
-    else{
+        else{
         mainDiv.innerHTML = ''
         mainDiv.innerHTML = '<p>There is no user !!!</p>'
-    }
+        }
     }
     else{
         for(i of users){
@@ -193,13 +193,10 @@ buttonDiv1.addEventListener('click',() => {
                                     <p>Email: ${i.email}</p>
                                 `
             mainDiv.append(userDiv)
-    }
+        }
     }
     
     
     
 })
-
-
-    // // 5th
 

@@ -63,3 +63,15 @@ console.log(obj4)
     
 //      console.log(typeof(obj4))
 //     console.log(obj4)
+
+// --------------------------------------------------------------------------------------------------------
+// let name = "suresh"
+
+// let output = ''
+
+// for(i in name){
+  
+//   // console.log(i+1, name[name.length - (parseInt(i) +1)])
+//   output = output + name[name.length - (parseInt(i)+1)]
+//  }
+// console.log(output)

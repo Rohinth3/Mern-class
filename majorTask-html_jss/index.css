@@ -1,0 +1,11 @@
+
+#mainDiv {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 10px;
+}
+
+.inputField{
+    padding: 10px;
+}
