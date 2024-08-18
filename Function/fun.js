@@ -134,21 +134,25 @@
 //   console.log(callBack)
 ///-----------------------------------------------------
                                             // // arrow fun and normal fun
-const main = (a,b,callBack) => {
-    return callBack(a,b)
-  }
-  
-  function add(num1, num2){
-    return num1 + num2
-  }
-  
-  function multiply(num1,num2){
-    return num1*num2
-  }
-  
-  const output = main(5,4,add)
-  console.log("Addition -->",output)
-  
-  const result =  main(5,4,multiply)
-  console.log("Multiplication -->",result)
-////----------------------------------------------------------------------------------------------------------------------
+// const main = (a,b,callBack,wordText) => {
+//   return wordText + callBack(a,b)
+// }
+
+// function add(num1, num2){
+//   return num1 + num2
+// }
+
+// function multiply(num1,num2){
+//   return num1*num2
+// }
+
+// const output = main(5,4,add,"AdditionResult -->")
+// console.log(output)
+
+// const result =  main(5,4,multiply,"MultiplicationResult -->")
+// console.log(result)
+////-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
