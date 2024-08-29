@@ -194,12 +194,26 @@
 
 //           //              mixed letter and numbers
                         
-let fruits = ["apple",5,"grapes","3",3,4,1,2,'banana']
-fruits.sort()
-console.log(fruits)
+// let fruits = ["apple",5,"grapes","3",3,4,1,2,'banana']
+// fruits.sort()
+// console.log(fruits)
 
 // -----------------------------------------------------------------------------------------
 
-                        // FLAt
+                       // // reverse()  --> it is Modifies the original and return the revered array
 
-                        
+                       //revered array
+// let data = ["rohinth","is"]
+// let output = data.reverse()
+// console.log(output)
+
+//                     //original array
+// let data = ["rohinth","is"]
+// data.reverse()
+// console.log(data)
+
+
+// let data = ["rohinth","is"]
+// console.log(data.reverse)
+// //           [o/p: function is reverse] coz it is not directly print the original array
+// -----------------------------------------------------------------------------------------

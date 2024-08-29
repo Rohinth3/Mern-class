@@ -8,13 +8,14 @@
 // }
 // console.log( typeof(i),output1)
 // ----------------------------------------------------------------
-//           // using Function in reverse words
-//           name = "rohinth"
+// //           // using Function in reverse words
+// //           name = "rohinth"
 
 // function reverse (data){
 //   // console.log(data)
 //   let output = ""
 //   for(i in data){
+//             /// +1 --> int so it was reverse the word
 //     output = output + data[data.length - (parseInt(i) +1) ]
 //   }
 //   console.log(output)

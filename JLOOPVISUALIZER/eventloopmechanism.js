@@ -3,28 +3,28 @@
 // CALL STACK --> WEBAPI --> CALLBACK QUEUE
 
 
-function output() {
-  console.log("one");
+// function output() {
+//   console.log("one");
   
-  setTimeout(function() {
-    console.log("two");
-  },2000);
+//   setTimeout(function() {
+//     console.log("two");
+//   },2000);
   
-  console.log("three");
-  console.log("four");
-  console.log("five");
-  setTimeout(function(){
-    console.log("six");
-  },2000);
- 	console.log("seven");
-  console.log("eight");
-  console.log("nine");
-  console.log("ten");
-  console.log("11");
-  console.log("12");
-  console.log("13");
-}
-output();
+//   console.log("three");
+//   console.log("four");
+//   console.log("five");
+//   setTimeout(function(){
+//     console.log("six");
+//   },2000);
+//  	console.log("seven");
+//   console.log("eight");
+//   console.log("nine");
+//   console.log("ten");
+//   console.log("11");
+//   console.log("12");
+//   console.log("13");
+// }
+// output();
 
 // --------------------------------------------------------------------------------------------------------------------------------
 
@@ -100,4 +100,50 @@ output();
 // //it is undefined]
 // console.log(output(5,4,add))
 // --------------------------------------------------------------------------------------------------------------------------------
+
+// console.log("one");
+// console.log("two");
+
+// function innovation(){
+//   console.log("Hi Innovation");
+// }
+
+// function three(){
+//   setTimeout(() => {
+//     console.log("three");
+//   }, 2000);
+  
+// }
+// function four(){
+//   console.log("Four");
+// }
+// three();
+// console.log("last");
+// innovation();
+// four();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+                                    //callback function using
+                          //  one()-> two(){depending one()} -> three()  {depending one()and two()}       
+function three() {
+  console.log("three");
+
+  setTimeout(function () {
+    console.log("last");
+  }, 1000);
+}
+
+function two() {
+  console.log("two");
+  three();
+}
+
+function one() {
+  console.log("one");
+  two();
+}
+
+one();
+
+// ---------------------------------------------------------------------------------------------------------------------
 
