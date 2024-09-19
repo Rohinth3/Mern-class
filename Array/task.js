@@ -75,3 +75,16 @@
 // console.log(output)
 
 // ---------------------------------------------------------------------------------------------------------------------------------
+// Task 6: Use forEach to append a string to each element of an array of strings.
+ 
+// sample input const strings = ['apple', 'banana', 'cherry'];
+// samplet output // ['apple pie', 'banana pie', 'cherry pie']
+
+
+// const arr = ['apple', 'banana', 'cherry'];
+
+// arr.forEach((element,index,array)=>{
+//   array[index] = `${element} pie`
+// })
+// console.log(arr)
+// ---------------------------------------------------------------------------------------------------------------------------------

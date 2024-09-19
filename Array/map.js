@@ -43,6 +43,41 @@ console.log(output)
 
 // -----------------------------------------------------------------------------------------------------------------
 
+// // Task 1: Use map to convert an array of objects into an array of values from a specific property, then filter out duplicate values.
+// // sample input const items = [
+// //     { id: 1, category: 'fruit' },
+// //     { id: 2, category: 'vegetable' },
+// //     { id: 3, category: 'fruit' },
+// //     { id: 4, category: 'dairy' }
+// // ];
+// // sample output --> // ['fruit', 'vegetable', 'dairy']
+
+
+// const items = [
+//     { id: 1, category: 'fruit' },
+//     { id: 2, category: 'vegetable' },
+//     { id: 3, category: 'fruit' },
+//     { id: 4, category: 'dairy' }
+// ];
+
+// let output = []
+
+//  output = items.map((i)=>{
+//    if(i.id !=3){
+//      return i.category
+//    }
+//  })
+ 
+//  console.log(output)
+
+// for(i of items){
+//   if(i.id != 3 ){
+//     output.push(i.category)
+//   }
+// }
+// console.log(output)
+// -----------------------------------------------------------------------------------------------------------------
+
 
 
 

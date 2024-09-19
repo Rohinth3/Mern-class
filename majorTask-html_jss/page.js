@@ -91,10 +91,13 @@ const mapResult = users.map((i)=> {
     userDiv.style.fontSize = "large"
     userDiv.style.color = "black"
     userDiv.innerHTML = `
-                <p>Name: ${i.name}</p>
+                <p><b>Name: ${i.name}</b></p>
                 <p>Age: ${i.age}</p>
                 <p>Email: ${i.email}</p>
                 `
+
+                // userDiv.innerHTML =    (not working only using string literals backstrick)
+    //          <p>name: i.name</p>
     // mainDiv.append(userDiv)                      This one also use but it is old format
     // return i
     return userDiv

@@ -15,11 +15,15 @@ const AgeDiv = document.getElementById('ageDiv')
 const EmailDiv = document.getElementById('emailDiv')
 const DeptDiv = document.getElementById('deptDiv')
 
-// const butDiv1 = document.getElementById('buttonDiv1')
-// const updateName = document.getElementById('updateName')
-// const updateAge = document.getElementById('updateAge')
-// const updateEmail = document.getElementById('updateEmail')
-// const updateDept = document.getElementById('updateDept')
+
+const upButton  = document.getElementById('buttonDiv1')
+
+
+// // const upName = document.getElementById('updateName')
+const age1 = document.getElementById('updateAge')
+const email1 = document.getElementById('emailDiv')
+// // const upDept = document.getElementById('deptDiv')
+
 
 class UserRegistration{
     /// constructor automatically assign
@@ -45,7 +49,7 @@ class UserRegistration{
         // console.log(userObj)
 
         this.user.push(userObj)
-        console.log(this.user)
+        console.log("After user added:",this.user)
         NameDiv.value = ''
         AgeDiv.value = ''
         EmailDiv.value = ''
@@ -53,19 +57,56 @@ class UserRegistration{
 
     }
     getuser(){
-
+        console.log("All get Users",this.user);
     }
     updateuser(){
+        // let age1 = document.getElementById('updateAge')
+        // let email1 = document.getElementById('emailDiv')
+        let agevalue = age1.value.trim()
+        let emailvalue = email1.value.trim().toLowerCase()
+        for(let i of this.user){
+            console.log("Checking user email:",i.email)
+            if(i['email']== emailvalue){
+                i.age = agevalue
+                // this.user.push(userObj)
+                console.log(`Updating user:`,i);
+                age1.value =''
+                email1.value = ''
+                // return;
+            }
+        }
+        console.log("user not found")
         
     }
 
 }
 obj = new UserRegistration();
 
-butDiv.addEventListener("click",()=>{
-    obj.adduser(NameDiv,AgeDiv,EmailDiv,DeptDiv)
-   
-})
+butDiv.addEventListener("click",() => {
+    obj.adduser(NameDiv,AgeDiv,EmailDiv,DeptDiv);
+    obj.getuser()
+});
 
 
-    
+upButton.addEventListener('click', () => {
+    obj.updateuser();
+});
+
+
+
+
+// //adduser(){
+// //obj.adduser()
+//     output :    this one also working same thing
+//     age
+//     : 
+//     "25"
+//     dept
+//     : 
+//     "ECE"
+//     email
+//     : 
+//     "rohinth2014@gmail.com"
+//     name
+//     : 
+//     "Rohinth"
