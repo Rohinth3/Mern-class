@@ -1,10 +1,10 @@
                     //apicall using ayncc await
 
-// async function acall(){
-//     const res = await (await fetch ("https://fakestoreapi.com/products")).json()
-//         console.log(res)
-// }
-// acall()
+async function acall(){
+    const res = await (await fetch ("https://fakestoreapi.com/products")).json()
+        console.log(res)
+}
+acall()
 
 // ----------------------------------------------------------------
                     /// apicall using promise function()
@@ -62,7 +62,7 @@
 //     try{
 //         fetch("https://fakestoreapi.com/products").then((res)=>{
 //             res.json().then((output)=>{
-//                 console.log(output)
+//                 console.log("try-->",output)
 //             })
 //         })
 //     }catch(error){

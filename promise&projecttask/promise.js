@@ -98,7 +98,44 @@
 // result(4,10,sub)
 // result(20,6,sub)
 // -----------------------------------------------------------------------------------------------------------------
-
-
     
+// function word(a){
+//         return new Promise((resolve,reject)=>{
+//           setTimeout(()=>{
+//             if(a){
+//               resolve(a)
+//             }else{
+//               reject("Try again later!!")
+//             }
+//           },2000)
+//         })
+//       }
+      
+//       function output(n,callback){
+//         callback(n)
+//       }
+      
+//       output("Hi",word)
+// -----------------------------------------------------------------------------------------------------------------
+                                                // //output:
+                                                // // Fetching...
+                                                // // end of script...
+                                                // // Data fetched
+                                                // // process completed
+function add(){
+  console.log('Fetching...')
+  return new Promise((resolve)=>{
+    setTimeout(()=>{
+      resolve( console.log('Data fetched'))
+    },1000)
+  })
+}
+
+function demo(callBack){
+  const res = callBack()
+  res.then((data)=>{console.log('process completed')})
+}
+
+demo(add);
+console.log('end of script...')
 
