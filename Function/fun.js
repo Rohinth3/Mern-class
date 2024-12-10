@@ -25,8 +25,8 @@
 // reverse("malayalam")
 // reverse("purushothman")
 // ----------------------------------------------------------------------------------------------------------------------
-//                     // parseInt()  --> userDefined function
-//                   // but I need without using [-1]       name.length- i -1 and word start from 1 to end
+//                     // //parseInt()  --> userDefined function
+//                   //// but I need without using [-1]       name.length- i -1 and word start from 1 to end
 // let name = "Rohinth"
 // let output = ''
 
@@ -153,7 +153,35 @@
 // const result =  main(5,4,multiply,"MultiplicationResult -->")
 // console.log(result)
 ////-----------------------------------------------------------------------------------------------------------------------------
+                        // curry function
 
+function curryFunction(a){
+  return function(b){
+    multi = a * b;
+      return function(c){
+        return multi * c
+      }
+  }
+}
+// Direct usage:
+console.log(curryFunction(2)(3)(4));
 
+// // Step-by-step usage:
+// //const step1 = curryFunction(2);  // Returns function for `b`.
+// //const step2 = step1(3);          // Returns function for `c`.
+// //const result = step2(4);         // Returns final result.
+// //console.log(result);             // Output: 24
+// -----------------------------------------------------------------------
+// function curryFunction1(a){
+//   return function(b){
+//     return a+b;
+//       // return function(c){
+//       //   return res = multi * c
+//       // }
+//   }
+// }
+// const add = curryFunction1(4);
+// console.log(add(4));
+////-----------------------------------------------------------------------------------------------------------------------------
 
 
